@@ -8,26 +8,18 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class AndroidFragment extends Fragment {
+public class PhpFragment extends Fragment {
 
-    TextView txtFA;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View v = inflater.inflate(R.layout.fragment_android, container, false);
-        txtFA = v.findViewById(R.id.textviewFragmentAndroid);
-        txtFA.setText("Hehe");
-        Bundle bundle = getArguments();
-        String value = bundle.getString("text");
-        txtFA.setText(value);
-        return v;
+        return inflater.inflate(R.layout.fragment_php, container, false);
     }
 
 }

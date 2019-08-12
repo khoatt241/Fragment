@@ -2,17 +2,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="200dp"
+    android:layout_height="300dp"
+    android:background="#ff3"
     android:gravity="center"
-    android:background="#2198f3"
-    tools:context=".AndroidFragment">
+    tools:context=".PhpFragment">
 
     <TextView
-        android:id="@+id/textviewFragmentAndroid"
+        android:id="@+id/textviewFragmentPhp"
         android:textColor="#f20"
         android:textSize="40sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fragment Android" />
-
+        android:text="Fragment Php" />
 </LinearLayout>
